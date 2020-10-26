@@ -1,0 +1,21 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border: solid black 2px;
+}
+
+.box-image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.box-product {
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}

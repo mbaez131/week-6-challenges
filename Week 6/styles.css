@@ -1,0 +1,34 @@
+.container {
+    margin: 0 auto;
+    width: 640px;
+    height: 70px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    border: solid black 1px;
+    grid-gap: 0;
+}
+
+.box {
+    border: solid black 1px;
+    width: 100%;
+}
+.box-two {
+    border: solid black 1px;
+    width: 100%;
+}
+.box:nth-child(even) {
+    background-color: red;
+}
+
+.box:nth-child(odd) {
+    background-color: black;
+}
+
+.box-two:nth-child(odd) {
+    background-color: red;
+}
+
+.box-two:nth-child(even) {
+    background-color: black;
+}

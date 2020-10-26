@@ -1,0 +1,26 @@
+.image {
+    width: 125px;
+    position: absolute;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.container {
+    border: black 2px solid;
+    width: 300px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: (13, 1fr);
+}
+
+.stripes:nth-child(even) {
+    background-color: red;
+}
+
+.stripes:nth-child(odd) {
+    background-color: white;
+}
+
+.stripes {
+    object-fit: fill;
+}
